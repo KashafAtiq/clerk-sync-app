@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
     const eventType = evt.type;
 
     console.log(
-      "Received webhook with ID ${id} and event type of ${eventType}"
+      `Received webhook with ID ${id} and event type of ${eventType}`
     );
     // console.log("Webhook payload:", evt.data);
 
